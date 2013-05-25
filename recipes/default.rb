@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+template "/tmp/config.conf" do
+  source "config.conf.erb"
+end
